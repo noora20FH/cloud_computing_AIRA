@@ -1,0 +1,13 @@
+.alert {
+    padding: 0.1rem 0.1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    font-size: small;
+}
+/** ADD YOUR AWESOME CODES HERE **/
