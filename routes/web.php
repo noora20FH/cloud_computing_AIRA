@@ -86,3 +86,5 @@ Route::middleware(['auth','isOwner'])->group(function(){
     Route::get('/transactionOwner', [WelcomeController::class, 'transactionOwner'])->name('transaction');
 });
 
+
+

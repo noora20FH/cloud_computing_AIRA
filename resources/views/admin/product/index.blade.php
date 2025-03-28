@@ -29,7 +29,8 @@
                         <td>{{ $item->prod_name }} </td>
                         <td>{{ $item->description }} </td>
                         <td>
-                        <img src="{{ asset('storage/'.$item->image) }}" class ="cate-image" alt="image here">
+                        <img src="{{ asset('storage/app/post-images'.$item->image) }}" class ="cate-image" alt="image here">
+                        
                         </td>
                         <td>{{ $item->price }} </td>
                         <td>{{ $item->weight }} </td>
